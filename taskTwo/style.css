@@ -1,0 +1,50 @@
+#totalIPD{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px 30px;
+    background-color: rgb(185, 167, 167);
+}
+
+body{
+    width: 50%;
+
+    margin: auto;
+}
+button{
+    background-color: rgb(119, 128, 129);
+    color: rgb(12, 10, 10);
+    font-size: 1.5rem;
+    padding: 15px 20px;
+    border: 2px solid green;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+  
+}
+#payBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin-top: 30px;
+}
+#succes{
+    font-size: 1.4rem;
+    display: none;
+}
+
+#unSucces{
+    font-size: 1.4rem;
+    display: none;
+
+
+}
+#succes span{
+    color: green;
+}
+#unSucces span{
+    color:red;
+}
+
